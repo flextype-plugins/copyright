@@ -39,6 +39,7 @@ Display copyright
 
 ```yaml
 enabled: true # or `false` to disable the plugin
+copyright: "Copyright &copy; {year}" # Copyright information
 ```
 
 ## License
