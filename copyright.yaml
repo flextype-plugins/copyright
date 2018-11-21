@@ -1,5 +1,5 @@
 name: Copyright
-version: 1.0.0
+version: 1.0.1
 description: "Copyright plugins allows you to keep the copyright of the website always updated by getting the current year and displaying copyright information."
 author:
   name: Sergey Romanenko
@@ -8,7 +8,3 @@ author:
 homepage: https://github.com/flextype-plugins/copyright
 bugs: https://github.com/flextype-plugins/copyright/issues
 license: MIT
-
-# Plugin settings
-enabled: true
-copyright: "Copyright &copy; {year}"
