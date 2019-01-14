@@ -19,7 +19,7 @@ use Flextype\Component\{Event\Event, Registry\Registry};
 Event::addListener('onShortcodesInitialized', function () {
 
     // Shortcode: [copyright]
-    Content::shortcode()->addHandler('copyright', function() {
+    Entries::shortcode()->addHandler('copyright', function() {
         return copyright();
     });
 });

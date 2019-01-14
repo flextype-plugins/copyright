@@ -1,6 +1,6 @@
 # Copyright Plugin for [Flextype](http://flextype.org/)
-![version](https://img.shields.io/badge/version-1.0.1-brightgreen.svg?style=flat-square)
-![Flextype](https://img.shields.io/badge/Flextype-0.7.0-green.svg?style=flat-square)
+![version](https://img.shields.io/badge/version-1.0.2-brightgreen.svg?style=flat-square)
+![Flextype](https://img.shields.io/badge/Flextype-0.8.2-green.svg?style=flat-square)
 ![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
 GitHub Gist plugin will embed a GitHub Gist into the page.
@@ -23,7 +23,7 @@ Define Flextype namespace in the template if it is not defined yet.
 
 Display copyright
 ```
-<?php echo copyright(); ?>
+<?= copyright() ?>
 ```
 
 ## Settings
